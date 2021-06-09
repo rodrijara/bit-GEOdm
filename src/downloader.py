@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 
+import sys
 import argparse 
+import requests
+
 from pathlib import Path
 
-class SeriesFile():
+script_args = sys.argv[:]
 
-    def __init__(self, file):
-        self.file = file.upper()
-
-    def print_string(self):
-        print(self.file)
+def main():
+    for arg in script_args:
+        response = requests.get()
 
 
 if __name__ == '__main__':
-    series_file = SeriesFile('lowercase')
-    series_file.print_string()
-
+    main()
 

@@ -4,7 +4,7 @@ Providing a SeriesMatrix file or a list of references, it will download
 everythig into an specified folder.
 
 ## Usage
-`python3 geoget.py -f <SeriesMatrixFile> -o <outdir>`\
+`python3 geoget.py -f <SeriesMatrixFile> -o <outdir>`
 
 Options:\
 `-f / --file` SeriesMatrixFile downloaded or created.\
