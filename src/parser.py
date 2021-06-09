@@ -5,10 +5,8 @@ import sys
 
 class FileParser:
     """
-    Parser object for SeriesMatrix files from GEO, 
-    with methods for extracting information such as 
-    URLs and metadata required for downloading a series 
-    of supplementary files from a GEO dataset.
+    Parser object for SeriesMatrix files from GEO datasets, with methods for 
+    extracting information from them, such as target URLs or metadata.
     """
 
     def __init__(self, file, regex):
